@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>n2kkrd</title>
-</head>
-<body>
-    <h1>Привет</h1>
-</body>
+  </head>
+  <body>
+    <style>
+        a.rollover {
+          display: inline-block;
+          width: 103px; height: 44px;
+          background: url(assets/images/logo_off2.png) /* Путь к файлу с исходным рисунком  */
+        }
+        a.rollover:hover {
+          background: url(assets/images/logo_on2.png); /* Путь к файлу с заменяемым рисунком  */
+        }
+      </style>
+      <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <p><a href="index.html" class="rollover"> </a></p>
+                </div>
+                <nav class="nav">
+                    <a class="nav__link" href="#">Обо мне</a>
+                    <a class="nav__link" href="#">Опыт</a>
+                    <a class="nav__link" href="#">Работа</a>
+                    <a class="nav__link" href="#">Контакты</a>
+                </nav>
+            </div>
+        </div>
+      </header>
+    <div class="intro">
+      <div class="container">
+      </div>
+    </div>
+  </body>
 </html>
